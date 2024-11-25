@@ -1,0 +1,51 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.planet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.planet-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.planet-info {
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+.mercury { background-color: #b5b5b5; }
+.venus { background-color: #e2b97f; }
+.earth { background-color: #3e82e1; }
+.mars { background-color: #e56e50; }
+.jupiter { background-color: #d79d36; }
+.saturn { background-color: #d8c084; }
+.uranus { background-color: #7ec8c7; }
+.neptune { background-color: #4a6a8a; }
+
+
+
